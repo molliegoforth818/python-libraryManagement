@@ -7,7 +7,7 @@ from .librarian import Librarian
 class Book(models.Model):
 
     title = models.CharField(max_length=50)
-    ibsn = models.CharField(max_length=50)
+    isbn = models.CharField(max_length=50)
     author = models.CharField(max_length=50)
     year_published = models.IntegerField()
     publisher = models.CharField(max_length=50)
